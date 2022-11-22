@@ -9,9 +9,24 @@
 <body>
 
     <h1>Dresseur de pokémon</h1>
-    <p>Les champs marqués d'une * sont obligatoires</p>
-
-
+    <p>Les champs marqués d'une * sont obligatoires.</p>
+    <fieldset>
+    <legend>Nouveau dresseur </legend>
+    <label>Nom *</label><br>
+    <input type="text"><br>
+    <br><label>Description</label><br>
+    <textarea id="msg" name="user_message"></textarea><br><br>
+    <label>Equipe</label><br>
+    <input type="checkbox">
+    <label for="coding">Rouge</label><br>
+    <input type="checkbox">
+    <label for="coding">Jaune</label><br>
+    <input type="checkbox">
+    <label for="coding">Bleu</label>
+    <br><br><label>Anniversaire *</label><br>
+    <input type="text" placeholder="jj//mm/aaaa"><br>
+    <br><button>Envoyer</button>
+    </fieldset>
     
 </body>
 </html>
